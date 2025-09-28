@@ -1,0 +1,23 @@
+html {
+    font-size: 16px;
+
+    @media (max-width: 600px) {
+        font-size: 14px;
+    }
+
+    @media (max-width: 400px) {
+        font-size: 12px;
+    }
+}
+
+html, body {
+    background-color: #050e1e;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#root {
+    height: 100%;
+}

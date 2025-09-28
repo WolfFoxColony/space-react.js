@@ -1,0 +1,11 @@
+.certificates {
+    background-size: cover;
+    transition: background 0.8s ease-in-out;
+    overflow: hidden;
+    background-repeat: repeat;
+    height: 100vh;
+
+    @media (max-width: 768px) {
+        height: auto;
+    }
+}

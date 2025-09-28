@@ -1,0 +1,30 @@
+.swiper-slider {
+    width: 100%;
+
+    &__slide-block {
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 1rem;
+    }
+
+    &__slide {
+        text-align: center;
+        max-height: 500px;
+        height: 100%;
+
+    }
+
+    &__slide-img {
+        max-width: 650px;
+        width: 100%;
+        margin-bottom: 1rem;
+
+        @media screen and (max-width: 600px) {
+            max-width: 400px;
+        }
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #c307e1;
+    }
+}

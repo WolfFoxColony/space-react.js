@@ -1,0 +1,22 @@
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.earth {
+    position: fixed;
+    bottom: -55%;
+    animation: rotate 90s linear infinite;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+
+    &_image {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        filter: drop-shadow( 0 0 1rem rgba(75,92,240));
+    }
+}
