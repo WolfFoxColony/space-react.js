@@ -1,5 +1,4 @@
 import React, {useMemo} from 'react';
-import Headline from "../../components/Headline/Headline.tsx";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
